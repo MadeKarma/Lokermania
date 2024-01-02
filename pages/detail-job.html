@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary w-100 fixed-top" style="background-color: #FFFFFF; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.30);"">
+      <div class="container mx-auto">
+        <a class="navbar-brand fw-bold" style="color: #6F00FF;" href="../index.html">Lokermania</a>
+        <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse borderTop justify-content-end mt-2 mt-md-0" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-black" style="font-weight: 500;">
+            <a class="nav-link" href="../pages/search-job.html" style=" color: #9747FF;">Info Loker</a>
+            <a class="nav-link" href="../pages/indexCompany.html" style=" color: #9747FF;">Pasang Loker</a>
+            <a class="nav-link" href="../pages/about.html" style=" color: #9747FF;">Tentang Kami</a>
+            <a class="nav-link screenSmallLogin screenLargeLogin-main px-3 px-md-0 ps-md-2 mt-3 mt-md-0 fw-bold" href="../pages/login.html" style="color: #4737FF;">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero sect -->
+    <div class="container-fluid position-relative mx-100 vh-100Large" style="padding-top: 128px; min-height: 460px; max-height: 657px; height: 100vh;">
+      <img src="../assets/vector/vektor.png" alt="" class="position-absolute start-0 bottom-0 w-100" style="z-index: -1;">
+        <div class="container h-100 pb-5">
+          <div class="row d-flex align-items-center h-75">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+              <img src="../assets/vector/avatar-md.png" alt="" class="">
+            </div>
+            <div class="col-12 col-md text-center text-md-start">
+              <h4 class="mb-0 mt-3 mt-md-0" style="color: #53525E;">Avatar Solutions</h4>
+              <h2 class="mb-0 fw-bold">BackEnd Develover</h2>
+              <small>Today</small>
+              <div class="d-flex d-md-block justify-content-center align-items-center flex-column">
+                <div class="d-flex align-items-centers flex-row gap-2 my-2">
+                  <img src="../assets/vector/wallet.png" alt="" height="100%">
+                  <small title="Rp. 2 Jt">Rp. 2 Jt</small>
+                </div>
+                <div class="d-flex align-items-centers flex-row gap-2">
+                  <img src="../assets/vector/location.png" alt="" height="100%">
+                  <small title="Bali, Jalan Seroja No. 16">Bali, Jalan Seroja No. 16</small>
+                </div>
+              </div>
+              <button type="button" class="btn text-white rounded-pill px-3 mt-3 d-inline-block d-md-none" data-bs-toggle="modal" data-bs-target="#ModalLowongan" style="background-color: #865DFF;">
+                Lihat lowongan perusahaan
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- content sect -->
+    <div class="container-fluid">
+      <div class="ps-md-5">
+        <div class="row gap-5">
+          <div class="col-12 col-md-8 py-5">
+            <div class="row border-Large px-2 px-md-4 py-5 rounded-5">
+              <div class="col-12">
+                <h3 class="text-center fw-bold mb-0">Deskripsi Lowongan</h3>
+                <p class="">Avatar solution hiring software engineer. Requirements below here. Apply now!! Lorem ipsum  Dolor sit amet. Lorem ipsum dolor sit amet . Lorem ipsum dolor sit amet  Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+              </div>
+              <div class="col-12">
+                <p class="fs-5">Kualifikasi</p>
+                <ul>
+                  <li class="">Memahami tentang design patern</li>
+                  <li class="">Umur maksimal 40</li>
+                  <li class="">Mempunyai kerja sama tim yang bagus</li>
+                  <li class="">Menguasai bahasa pemograman Golang</li>
+                  <li class="">Menguasai NoSQL database</li>
+                </ul>
+              </div>
+              <div class="col-12">
+                <div class="row d-flex justify-content-center align-items-start text-center gy-5">
+                  <div class="col-6 col-md">
+                    <p class="mb-0 fw-medium">Lulusan</p>
+                    <small>S1 Jurusan TI</small>
+                  </div>
+                  <div class="col-6 col-md">
+                    <p class="mb-0 fw-medium">Jurusan</p>
+                    <small>Teknik Informatika/Teknologi Informasi</small>
+                  </div>
+                  <div class="col-6 col-md">
+                    <p class="mb-0 fw-medium">Fungsi kerja</p>
+                    <small>IT/Develover</small>
+                  </div>
+                  <div class="col-6 col-md">
+                    <p class="mb-0 fw-medium">Pengalaman</p>
+                    <small>Minimal 3 tahun</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-5 d-flex justify-content-center">
+                <button class="btn text-white rounded-pill py-3 px-4" style="background-color: #7A14FF;" data-bs-toggle="modal" data-bs-target="#ModalApplyLowongan">Lamar Sekarang</button>
+              </div>
+            </div>
+          </div>
+          <div class="col border-start border-secondary px-4 d-none d-md-block">
+            <h4 class="text-center pt-5">Lowongan Pekerjaan Lain Dari Avatar Solutions</h4>
+            <div class="d-flex justify-content-between align-items-center mt-5 px-3">
+              <p class="p-0">Software Engineer</p>
+              <button class="btn text-white rounded-pill" style="background-color: #865DFF;">
+                <small>Detail</small>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Lowongan -->
+    <div class="modal fade" id="ModalLowongan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog m-0" style="max-width: 100%;">
+        <div class="modal-content" style="border-radius: unset; height: 100vh;">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center">Lowongan Pekerjaan Lain Dari Avatar Solutions</h4>
+            <div class="d-flex justify-content-between align-items-center mt-5">
+              <p class="p-0">Software Engineer</p>
+              <button class="btn text-white rounded-pill" style="background-color: #865DFF;">
+                <small>Detail</small>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Apply Lowongan -->
+    <div class="modal fade" id="ModalApplyLowongan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-center-Large mReset-Small" style="max-width: 1126px;">
+        <div class="modal-content height100vh-Small borderRadiusUnset-Small">
+          <div class="modal-body">
+            <form action="" autocomplete="off">
+              <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-2 mb-md-0">
+                  <label for="name">Nama lengkap</label><br>
+                  <input class="border w-100 rounded px-3 py-2 mt-1" type="text" id="name">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="age">Umur</label><br>
+                  <input class="border w-100 rounded px-3 py-2 mt-1" type="number" id="age">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-2 mb-md-0">
+                  <label for="email">Email</label><br>
+                  <input class="border w-100 rounded px-3 py-2 mt-1" type="email" id="email">
+                </div>
+                <div class="col-12 col-md-6 d-flex gap-3 flex-column">
+                  <label for="">Jenis kelamin</label>
+                  <div class="d-flex flex-md-column">
+                    <div class="form-check pe-3">
+                      <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1" checked>
+                      <label class="form-check-label" for="flexRadioDefault1">
+                        Laki - laki
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault2">
+                      <label class="form-check-label" for="flexRadioDefault2">
+                        Perempuan
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-2 mb-md-0">
+                  <label for="phonenumber">Phone number</label><br>
+                  <input class="border w-100 rounded px-3 py-2 mt-1" type="text" id="phonenumber">
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="inputGroupFile01">CV/Resume</label>
+                  <input type="file" class="form-control" id="inputGroupFile01">
+                  <small>Jenis file: .pdf, Ukuran file maks: 5mb</small>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="address">Alamat</label><br>
+                <input class="border w-100 rounded px-3 py-2 mt-1" type="text" id="address">
+              </div>
+              
+            </form>
+          </div>
+          <div class="modal-footer d-flex justify-content-start" style="border: none;">
+            <button type="button" class="btn text-white px-4 py-2 rounded-pill" data-bs-target="#ModalSuccess" data-bs-toggle="modal" style="background-color: #852AFA;">Kirim</button>
+            <button type="button" class="btn text-white px-4 py-2 rounded-pill" data-bs-dismiss="modal" aria-label="Close" style="background-color: #FF4F64;">Batal</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Success Apply Lowongan -->
+    <div class="modal fade" id="ModalSuccess" aria-hidden="true" aria-labelledby="ModalSuccessLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" style="max-width: 600px;">
+        <div class="modal-content">
+          <div class="modal-header" style="border: none;">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center align-items-center flex-column gap-2">
+            <img class="w-25" src="../assets/vector/centang.png" alt="">
+            <h6 class="my-1 fs-4">Form berhasil dikirim</h6>
+            <small class="mb-3 text-center">Silahkan tunggu balasan email dari perusahaan yang dilamar</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
